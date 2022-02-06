@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lesson1</string>
+    <string name="String">Свитч (туда сюда)</string>
+    <string name="press_me">Press me</string>
+    <string name="hell0_lessonone">Hell0_lessonOne</string>
+    <string name="text">Галочку на счастье</string>
+    <string name="next">Next</string>
+    <string name="numberPhone">Введите номер телефона</string>
+    <string name="inputEmail">Введите электронную почту</string>
+</resources>

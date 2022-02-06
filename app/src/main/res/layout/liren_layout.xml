@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/linne"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textVW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+
+        android:text="@string/hell0_lessonone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        />
+
+    <EditText
+        android:id="@+id/editeon_text"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType=""
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/press_me"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/buttton_activitiTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic" />
+    <Switch
+        android:id="@+id/switswist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/String"
+
+
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:id="@+id/cheek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#6345A5"
+        android:text="@string/text"
+        android:textAllCaps="false"
+        android:textColor="#CDDC39"
+        android:textStyle="italic" />
+
+    <ToggleButton
+        android:id="@+id/tuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+
+        android:textAllCaps="true"
+        android:textStyle="bold|italic" />
+</LinearLayout>
