@@ -7,4 +7,7 @@
     <string name="next">Next</string>
     <string name="numberPhone">Введите номер телефона</string>
     <string name="inputEmail">Введите электронную почту</string>
+    <string name="textii">Введите текст</string>
+    <string name="password">Введите пароль</string>
+    <string name="name">Введите имя.</string>
 </resources>
